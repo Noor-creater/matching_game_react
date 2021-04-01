@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 
-import { FormErrors } from './FormErrors';
+// import { FormErrors } from './FormErrors';
 import {withRouter} from 'react-router-dom';
 import './signup.css';
+import Header from './Header';
 
 
 class Form extends Component {
@@ -60,11 +61,14 @@ class Form extends Component {
     /* If every thing is working properly then will go to Thank you Page */
     onSubmitHandler = (e) =>{
         e.preventDefault();
-        console.log("Thank you user!");
+        // console.log("Thank you user!");
+        alert(`Thank You ${this.state.salutation} ${this.state.first_name} ${this.state.last_name}, You were Sign In successfuly`);
         this.props.history.push({
-            pathname:'/thanks',
+            pathname:'/rules',
             state:{
-                first_name:this.state.first_name
+                salutation:this.state.salutation,
+                first_name:this.state.first_name,
+                last_name:this.state.last_name
             }
             });
     }
@@ -131,7 +135,7 @@ class Form extends Component {
             lastNameError = fieldValidationErrors.last_name;
         break;
         case 'phone_number':
-            phoneNumberValid = value.match(/^[1-9]{3}[-]?[1-9]{3}[-]?[1-9]{4}$/i);
+            phoneNumberValid = value.match(/^[0-9]{3}[-]?[0-9]{3}[-]?[0-9]{4}$/i);
             fieldValidationErrors.phone_number = phoneNumberValid ? '': 'Phone Number is invalid';
             phoneNumberError = fieldValidationErrors.phone_number;
         break;
@@ -226,8 +230,9 @@ class Form extends Component {
     render(){
         
     return (
+        <div class="formBg">
+            <Header/>
         <main className="grid-x mainBg align-center ">
-            
             <section className=" grid-x large-12 medium-12 small-12">
                 <form className="formData large-6 large-offset-3  medium-8 medium-offset-2 small-12" id="signup_form" action="#" onSubmit={this.onSubmitHandler}>
                 <div className="grid-x large-1 large-offset-11  medium-1 medium-offset-11 small-1 small-offset-11  alignRight align-self-bottom"><h5 className="closeBtn">X</h5></div>
@@ -303,6 +308,7 @@ class Form extends Component {
         </form>
         </section>
         </main>
+        </div>
     )
 }
 }

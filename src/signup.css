@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+.formBg{
+    background-image:url(./img/formbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    text-align: center;
+    padding: 50px auto 50px auto;
+    margin: 0 auto 0 auto;
+}
+
 .mainBg{
     padding: 5px 0 0 0;
     text-align: center;

@@ -6,9 +6,12 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 
-import Header from './Header';
+// import Header from './Header';
 
-
+import Home from './Home';
+import Rules from './Rules';
+import Instructions from './Instructions';
+import PrivacyPolicy from './PrivacyPolicy';
 import Form from './SignupForm';
 import Thanks from './Thanks';
 
@@ -27,18 +30,34 @@ class App extends Component{
   render(){
   return (
   <Router>
-    <div className="appBg">
-    <Header/>
+    <div className="App">
+    {/* <Header/> */}
       {/* <nav>
         <ul>
           <li>
             <Link to="/">Home</Link>
           </li>
+          <li>
+            <Link to="/form">Sign Up</Link>
+          </li>
+          <li>
+            <Link to="/rules">Rules</Link>
+          </li>
+          <li>
+            <Link to="/instructions">Instructions</Link>
+          </li>
+          <li>
+            <Link to="/privacyPolicy">Privacy Policy</Link>
+          </li>
         </ul>
       </nav> */}
       <Switch>
-        <Route exact path="/" children={ <Form /> }/>
+        <Route exact path="/" children={ <Home /> }/>
         <Route path="/thanks" children={<Thanks/>}/>
+        <Route path="/form" children={<Form/>}/>
+        <Route path="/rules" children={<Rules/>}/>
+        <Route path="/instructions" children={<Instructions/>}/>
+        <Route path="/privacyPolicy" children={<PrivacyPolicy/>}/>
       </Switch>
     </div>
   </Router>

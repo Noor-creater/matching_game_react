@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "./static/css/main.9f465bfb.chunk.css",
-    "main.js": "./static/js/main.812e7750.chunk.js",
-    "main.js.map": "./static/js/main.812e7750.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.c9051bb7.js",
-    "runtime-main.js.map": "./static/js/runtime-main.c9051bb7.js.map",
+    "main.css": "./static/css/main.adea0346.chunk.css",
+    "main.js": "./static/js/main.41a979cd.chunk.js",
+    "main.js.map": "./static/js/main.41a979cd.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.c1a89edf.js",
+    "runtime-main.js.map": "./static/js/runtime-main.c1a89edf.js.map",
     "static/css/2.26247e7e.chunk.css": "./static/css/2.26247e7e.chunk.css",
-    "static/js/2.3eddc49d.chunk.js": "./static/js/2.3eddc49d.chunk.js",
-    "static/js/2.3eddc49d.chunk.js.map": "./static/js/2.3eddc49d.chunk.js.map",
-    "static/js/3.45df44e9.chunk.js": "./static/js/3.45df44e9.chunk.js",
-    "static/js/3.45df44e9.chunk.js.map": "./static/js/3.45df44e9.chunk.js.map",
+    "static/js/2.b1df84a3.chunk.js": "./static/js/2.b1df84a3.chunk.js",
+    "static/js/2.b1df84a3.chunk.js.map": "./static/js/2.b1df84a3.chunk.js.map",
+    "static/js/3.b8be1d03.chunk.js": "./static/js/3.b8be1d03.chunk.js",
+    "static/js/3.b8be1d03.chunk.js.map": "./static/js/3.b8be1d03.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.26247e7e.chunk.css.map": "./static/css/2.26247e7e.chunk.css.map",
-    "static/css/main.9f465bfb.chunk.css.map": "./static/css/main.9f465bfb.chunk.css.map",
-    "static/js/2.3eddc49d.chunk.js.LICENSE.txt": "./static/js/2.3eddc49d.chunk.js.LICENSE.txt",
-    "static/media/index.css": "./static/media/formbg.144d92ed.png",
-    "static/media/logo.452db5e2.svg": "./static/media/logo.452db5e2.svg"
+    "static/css/main.adea0346.chunk.css.map": "./static/css/main.adea0346.chunk.css.map",
+    "static/js/2.b1df84a3.chunk.js.LICENSE.txt": "./static/js/2.b1df84a3.chunk.js.LICENSE.txt",
+    "static/media/Instructions.css": "./static/media/contestBoxHome.dbe8bf0a.png",
+    "static/media/signup.css": "./static/media/formbg.144d92ed.png",
+    "static/media/PrivacyPolicy.css": "./static/media/game_rules.26197a6a.png",
+    "static/media/Thanks.css": "./static/media/golden-box.8f8ae115.png",
+    "static/media/Home.css": "./static/media/home_bg.5d1bc6df.png",
+    "static/media/logo.452db5e2.svg": "./static/media/logo.452db5e2.svg",
+    "static/media/playGame-btn.153ccfd4.png": "./static/media/playGame-btn.153ccfd4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c9051bb7.js",
+    "static/js/runtime-main.c1a89edf.js",
     "static/css/2.26247e7e.chunk.css",
-    "static/js/2.3eddc49d.chunk.js",
-    "static/css/main.9f465bfb.chunk.css",
-    "static/js/main.812e7750.chunk.js"
+    "static/js/2.b1df84a3.chunk.js",
+    "static/css/main.adea0346.chunk.css",
+    "static/js/main.41a979cd.chunk.js"
   ]
 }
