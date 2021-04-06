@@ -7,23 +7,14 @@
     margin:0 auto 0 auto;
 }
 
-.homeCont{
-    margin: 50px auto 50px auto;
-}
 
 .contestBox{
-    margin:0 auto 30px auto;
-    background-image:url(./img/game_rules.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
     text-align: center;
-    /* height: 60%; */
-    /* padding:0 45px; */
     font-family: 'Poppins', sans-serif;
-    /* padding-bottom: 20px; */
-    height:100%;
-    /* padding:0 60px; */
+    
 }
 
 .contestBox h3{

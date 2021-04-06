@@ -1,27 +1,18 @@
+// import React, {useState} from 'react';
+//import ReactDOM from 'react-dom';
+// import logo from './logo.svg';
+// import NameForm from './NameForm';
+
 import React, { Component } from 'react';
-import {withRouter} from 'react-router-dom';
 import { Timer } from 'react-countdown-clock-timer';
 import { render } from 'react-dom';
+import {withRouter} from 'react-router-dom';
 
-import Header from './Header';
-
-
-// import Form from './SignupForm';
-// import Thanks from './Thanks';
-
-// import './App.css';
-import { //curly braces coz multiple things to import
-  HashRouter as Router,//determine url//router is the nickname of browserrouter
-  Switch,//something look in between router and tell us where to go 
-  Route, //indvisual rout in router
-  Link // for Navigation 
-} from "react-router-dom";
-//when we don't write ./ before the location of import that means it live in node_modules 
 
 import Card from './components/Card';
 import Modal from "./components/Modal";
 import StopWatch from "./components/StopWatch";
-import './Game.css';
+import './styles.css';
 
 class Game extends Component{
   constructor(props) {
@@ -128,10 +119,18 @@ class Game extends Component{
     }
 
   }
+
+goToThanks = (e) =>{
+    e.preventDefault();
+    // console.log("Thanks!");
+    this.props.history.push({
+        pathname:'/thanks',
+        });
+}
   render(){
   return (
-    <div>
-      <Header/>
+    <div className="appBg">
+
     <div>
         <Modal moveCount={this.state.moveCount} show={this.state.isModalOpen} onReplay={this.replay} />
         <div className="wrapper">
@@ -149,6 +148,7 @@ class Game extends Component{
         </div>
         <StopWatch count={this.state.moveCount} onReplay={this.replay} />
     </div>
+    <button id="goToThanks" onClick={this.goToThanks}>Next</button>
     </div>
   );
 }

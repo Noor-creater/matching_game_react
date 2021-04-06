@@ -2,56 +2,43 @@
     background-image:url(./img/home_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center bottom;
-    text-align: center;
-    padding: 50px auto 50px auto;
-    margin: 0 auto 0 auto;
+    background-position: center;
+    height: 100vh;
+    padding: 1rem;
+    position: relative;
 }
 
-.homeCont{
-    margin: 50px auto 50px auto;
+.homeCont {
+    position:relative;
 }
 
-.contestBox{
-    margin:0 auto 30px auto;
-    background-image:url(./img/contestBoxHome.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
-    text-align: center;
-    /* height: 60%; */
-    /* padding:0 45px; */
+
+.contestBoxContent {
+    position: absolute;
     font-family: 'Poppins', sans-serif;
-    /* padding-bottom: 20px; */
-    height:100%;
-    /* padding:0 60px; */
 }
 
-.contestBox h3{
-    margin: 0px auto 0px auto;
-    text-align: center;
-    font-weight: bold;
-    color:#ffffff;
-    margin: 0px 0 0px 0;
-    padding-top:35px;
-    padding-bottom: 35px;
+.contestBoxContent h3 {
+    font-weight: 700;
+    color: white;
+    position: relative;
+    top: 18px;
 }
 
-.contestBox p{
-    margin: 0px auto 0px auto;
+.contestBoxContent p {
+    font-size: 14px;
+    position: relative;
+    top: calc(18px + 23px);
+    padding-left: 15px;
+    padding-right: 15px;
     color:#525252;
-    text-align: center;
 }
 
-.contestBox p.p1 {
-    padding: 70px 50px 20px 50px;
-}
 
-.contestBox p.p2{
-    padding: 20px 50px 100px 50px;
-}
-
-.playBtn img {
-    width:50%;
-    margin: 0 auto 0 auto;
+.playBtn {
+    position: absolute;
+    top:calc(210px + 150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

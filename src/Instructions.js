@@ -10,11 +10,11 @@ class Instructions extends Component {
     constructor(props){
         super(props);
     }
-    goToThanks = (e) =>{
+    goToGame = (e) =>{
         e.preventDefault();
         // console.log("Thanks!");
         this.props.history.push({
-            pathname:'/thanks',
+            pathname:'/game',
             state:{
                 salutation:this.props.location.state.salutation,
                 first_name:this.props.location.state.first_name,
@@ -36,7 +36,7 @@ class Instructions extends Component {
                 <div className="contestBox grid-y align-center align-self-top">
                     <h3 >Game Instructions</h3><br/>
                     <p className="p1">Hi {this.props.location.state.first_name}! Welcome to the Matching Game. The game consists of 10 tiles, make five matches by selecting two same images within 20 seconds. </p>
-                    <button id="goToThanks" onClick={this.goToThanks}>Next</button>
+                    <button id="goToGame" onClick={this.goToGame}>Next</button>
                 </div>
                 <div className="DetailsDiv grid-y large-12 medium-12 small-12 align-center">
                     <div className="totalMatch grid-y align-center align-self-top">

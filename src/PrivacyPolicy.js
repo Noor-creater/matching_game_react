@@ -45,8 +45,6 @@ class PrivacyPolicy extends Component {
 
                 </div>
             </div>
-            {/* <h2>Thanks {this.props.location.state.first_name} for your registration!</h2>
-            <button id="backHome" onClick={this.backHome}>Back Home</button> */}
         </section>
         </div>
     )
