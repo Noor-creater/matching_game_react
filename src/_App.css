@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+    height: 100%;
+    width: 100vw;
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.appBg {
+  background-image:url(./img/formbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 1rem;
+  position: relative;
+  height: 100%;
+  max-width: 100%;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 375px) {
+  .content2 {
+      height: 430px;
+  }
+  .card-wrapper {
+		width: 75px;
+		height: 75px;
+		max-width: 100%;
+		max-height: 100%;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+  .content2 {
+      height: 500px;
+  }
+  .card-wrapper {
+		width: 75px;
+		height: 75px;
+		max-width: 100%;
+		max-height: 100%;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  * {
+      font-size: 1.5rem;
+  }
+  .gameRulesContent h3 {
+      font-size: 2.3rem;
+  }
+  .content2 {
+      height: 100%;
+  }
+
+  .card-wrapper {
+		width: 150px;
+		height: 150px;
+		max-width: 100%;
+		max-height: 100%;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}

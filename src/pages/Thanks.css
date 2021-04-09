@@ -1,0 +1,41 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+/* 
+
+.thankyouBg{
+    background-image:url(../img/thankyouWinBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    position: relative;
+}
+
+.thanksContainer {
+    position: relative;
+    margin-top: 3rem;
+    width: 100%;
+}
+.thanksContent {
+    position: absolute;
+    z-index: 10;
+    top: 56px;
+    padding: 1rem;
+} */
+.thanksBoard {
+    position: relative;
+    top: 100px;
+}
+
+
+#backHome{
+    background-color: #0bbf7d;
+    padding:0.8rem 1.5rem;
+    text-align: center;
+    font-size: 20px;
+    color:#ffffff;
+}

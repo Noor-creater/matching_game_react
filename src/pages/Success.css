@@ -1,0 +1,86 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.winBg{
+    background-image:url(../img/winBg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow-y: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.winContainer {
+    padding: 1rem;
+    width: 90%;
+    height: 85vh;
+    background-image: url(../img/winBox.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.winContent {
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#525252;
+    position: relative;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.btnBox {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    bottom: 200px;
+}
+
+.modalBox  {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end; 
+}
+
+.modalBox .button {
+    margin-bottom: 200px;
+}
+
+.winBg h2 {
+    color:#fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.winContent p {
+    color:#525252;
+}
+
+.winContent span {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #525252;
+}
+

@@ -1,9 +1,11 @@
 import React from 'react'
-import Icecream from './images/Icecream'
-import Mushrooms from './images/Mushrooms'
-import Hearts from './images/Hearts'
-import Star from './images/Star'
-import Unicorn from './images/Unicorn'
+import Icecream from './images/Icecream.js'
+import Mushrooms from './images/Mushrooms.js'
+import Hearts from './images/Hearts.js'
+import Star from './images/Star.js'
+import Unicorn from './images/Unicorn.js'
+import "../pages/game.css"
+
 
 const Card = (props) => {
   let image;
@@ -41,8 +43,10 @@ const Card = (props) => {
     
     <div className={`card-wrapper ${props.card.isReset? "is-reset" : ""}`}  onClick={() => props.onCardClick(props.card)}>
       <div className={`card-container ${props.card.isVisible ? "is-flipped" : ""}`}>
-        <div className="card card-back"><div className="dots">{dots}</div></div>
-        <div className={`card card-front ${props.card.isMatched ? "is-matched" : ""}`}>
+        <div className="game-card card-back">
+          {/* <div className="dots">{dots}</div> */}
+          </div>
+        <div className={`game-card card-front ${props.card.isMatched ? "is-matched" : ""}`}>
           {image}
         </div>
       </div>

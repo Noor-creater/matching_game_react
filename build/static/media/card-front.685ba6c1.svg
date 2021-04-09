@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 205.03 205.03">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #4d4d4d;
+        stroke-miterlimit: 10;
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        opacity: 0.5;
+      }
+
+      .cls-3 {
+        fill: #f28705;
+      }
+
+      .cls-4 {
+        fill: #ffebe3;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-7.58" y1="10.13" x2="212.61" y2="194.89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fbae17"/>
+      <stop offset="0.1" stop-color="#fbaf1a"/>
+      <stop offset="0.15" stop-color="#fbb224" stop-opacity="0.99"/>
+      <stop offset="0.19" stop-color="#fcb636" stop-opacity="0.97"/>
+      <stop offset="0.22" stop-color="#fcbd4e" stop-opacity="0.94"/>
+      <stop offset="0.25" stop-color="#fdc66f" stop-opacity="0.91"/>
+      <stop offset="0.28" stop-color="#fed196" stop-opacity="0.87"/>
+      <stop offset="0.31" stop-color="#ffdec4" stop-opacity="0.82"/>
+      <stop offset="0.32" stop-color="#ffe2d4" stop-opacity="0.8"/>
+      <stop offset="0.39" stop-color="#fbae17"/>
+      <stop offset="0.52" stop-color="#fbaf1a"/>
+      <stop offset="0.58" stop-color="#fbb224" stop-opacity="0.99"/>
+      <stop offset="0.63" stop-color="#fcb635" stop-opacity="0.97"/>
+      <stop offset="0.67" stop-color="#fcbd4d" stop-opacity="0.94"/>
+      <stop offset="0.71" stop-color="#fdc66c" stop-opacity="0.91"/>
+      <stop offset="0.75" stop-color="#fed093" stop-opacity="0.87"/>
+      <stop offset="0.78" stop-color="#ffddc0" stop-opacity="0.82"/>
+      <stop offset="0.79" stop-color="#ffe2d4" stop-opacity="0.8"/>
+      <stop offset="0.91" stop-color="#fbae17"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="contest_page" data-name="contest page">
+      <g>
+        <rect class="cls-1" x="0.5" y="0.5" width="204.03" height="204.03"/>
+        <g class="cls-2">
+          <rect class="cls-3" x="4" y="4" width="197.02" height="197.02"/>
+          <path class="cls-4" d="M197.53,7.5v190H7.5V7.5h190m7-7H.5v204h204V.5Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,95 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.failureBg{
+    background-image:url(../img/formbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+
+.lostContainer {
+    padding: 1rem;
+    width: 90%;
+    height: 100%;
+    background-image: url(../img/boardLost.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lostContent {
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#525252;
+    position: relative;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    
+}
+
+.btnBox {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    bottom: 200px;
+}
+
+.modalBox  {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end; 
+}
+
+
+.failureBg h2 {
+    color:#fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.lostBoard p {
+    color:#525252;
+}
+
+.lostContent span {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #525252;
+}
+
+#backHome{
+    background-color: #0bbf7d;
+    padding:0.8rem 1.5rem;
+    text-align: center;
+    font-size: 20px;
+    color:#fff;
+}
+
+#backHome a {
+    color:#fff;
+}
+#backHome a:visited {
+    color:#fff;
+}
